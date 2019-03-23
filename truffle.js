@@ -1,11 +1,12 @@
 // Allows us to use ES6 in our migrations and tests.
 require("babel-register");
 require("babel-polyfill");
+require('dotenv').config();
 
 var HDWalletProvider = require("truffle-hdwallet-provider");
 
-let mnemonic = "total survey degree bench road decide hello develop amount video rain top";
-let infura_apikey = "v3/8b0fd12d481047628be5918e1891c438";
+let mnemonic = process.env.MNEMONIC;
+let infura_apikey = process.env.INFURA_API_KEY;
 
 module.exports = {
     // See <http://truffleframework.com/docs/advanced/configuration>
