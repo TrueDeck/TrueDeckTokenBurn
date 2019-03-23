@@ -1,6 +1,18 @@
 # TrueDeckTokenBurn
 Smart-Contract to burn TrueDeck TDP Tokens.
 
+---
+
+## Smart-Contract Deployments on Mainnet
+
+### TDP Token:
+https://etherscan.io/token/0x5b11aacb6bddb9ffab908fdce739bf4aed554327
+
+### TokenBurner:
+https://etherscan.io/address/0x853f5a4e796a7494baa4eedb7e31ddf8ab3f1dca
+
+---
+
 ## Smart-Contract Deployments on Ropsten
 
 ### TDP Token:
@@ -22,5 +34,3 @@ https://ropsten.etherscan.io/tx/0x57b839226624290859c9e03c9636520b7f61c1af90e0e4
 After which, smart-contract code is not accessible and tokens sent are stuck forever.
 
 https://ropsten.etherscan.io/address/0xa274564b895323d32df4c81eaa32988a6d116e88#code
-
-
