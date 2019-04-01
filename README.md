@@ -21,6 +21,19 @@ After which, smart-contract code is not accessible and tokens sent are stuck for
 
 ---
 
+### Phase #2 - [TokenBurner holding 100,000 TDP](https://etherscan.io/address/0x2d14dcab0974361dd6fd6071f0ad88742522e9bf#code)
+Description | Value
+:---: | :---:
+Duration | 1 to 7 April
+Total tokens to burn | 100,000 TDP
+TokenBurner Smart-Contract | [0x2d14...e9bf](https://etherscan.io/address/0x2d14dcab0974361dd6fd6071f0ad88742522e9bf)
+100,000 TDP Transaction | [0x360c...1057](https://etherscan.io/tx/0x360c6aaa147462a47a5eecf2509274a869db4ec187f3209275de5cf7f2af1057)
+TokenBurner's `burn()` call | [0xaa94...4fb7](https://etherscan.io/tx/0xaa9437f369549a1cc7a420b8c0553e3617d4b11894937c36b2225ba9c0f94fb7)
+
+After which, smart-contract code is not accessible and tokens sent are stuck forever.
+
+---
+
 ## Smart-Contract Deployments on Ropsten
 
 ### TDP Token:
